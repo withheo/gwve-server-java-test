@@ -1,0 +1,189 @@
+{
+  "gve": {
+    "info": {
+      "version": "1.0",
+      "datetime": "1702360547234",
+      "writer": ""
+    },
+    "sequence": {
+      "id": "seq-a3bca6aa-63b2-4d60-b7b0-b091beaee6ae",
+      "title": "Untitle",
+      "editor": {
+        "id": "editor-fd39a5c1-b41f-43b5-94ed-adfeba2e5116",
+        "name": "",
+        "workspace": {
+          "id": "workspace-dcfb5c57-dd5a-43cf-b177-cd006e6a59f8",
+          "name": "workspace",
+          "aspectRatio": 1.778,
+          "frameInfo": {
+            "frames": 3600,
+            "framerate": 30,
+            "df": false
+          },
+          "initDatas": {
+            "aspectRatio": 1.778,
+            "frameInfo": {
+              "frames": 3600,
+              "framerate": 30,
+              "df": false
+            }
+          }
+        }
+      }
+    },
+    "export": {
+      "aspectratio": "16:9",
+      "width": "1280",
+      "height": "720",
+      "framerate": "30",
+      "drop": "false",
+      "duration": "1200",
+      "frames": "1200",
+      "audio": {
+        "codec": "aac",
+        "bitrate": "320K",
+        "samplerate": "44.1K"
+      },
+      "video": {
+        "codec": "libx264",
+        "bitrate": "5M",
+        "bitratetype": ""
+      }
+    },
+    "assets": [
+      {
+        "id": "media-text-6",
+        "type": "text",
+        "src": "",
+        "framerate": 30,
+        "size": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "render": {
+      "items": [
+        {
+          "id": "base-video-7e5772b0-b3d1-4b62-bbec-d5ecb6b8b9d5",
+          "type": "base-video",
+          "action":"add",
+          "ord": 0,
+          "datas": {
+            "alpha": 1,
+            "color": "black",
+            "duration": 1200,
+            "frame": {
+              "start": 0,
+              "end": 1200
+            },
+            "framerate": 30,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotate": 0,
+            "scale": 1,
+            "size": {
+              "width": 1280,
+              "height": 720
+            }
+          }
+        },
+        {
+          "id": "base-audio-d0acef51-5013-4b2c-be5a-ca22a23cb15f",
+          "type": "base-audio",
+          "action":"add",
+          "ord": 1,
+          "datas": {
+            "alpha": 1,
+            "bitrate": null,
+            "channel": null,
+            "samplerate": "44.1K",
+            "duration": 1200,
+            "frame": {
+              "start": 0,
+              "end": 1200
+            },
+            "framerate": 30,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotate": 0,
+            "scale": 1,
+            "size": {
+              "width": 1280,
+              "height": 720
+            }
+          }
+        },
+        {
+          "id": "text-7e7bebc2-dd67-4b73-b262-c2a89d305794",
+          "type": "text",
+          "assetid": "media-text-6",
+          "action":"overlay",
+          "ord": 2,
+          "datas": {
+            "size": {
+              "width": 550,
+              "height": 193
+            },
+            "alpha": 1,
+            "frame": {
+              "start": 0,
+              "end": 1200
+            },
+            "position": {
+              "x": 366.2338092257319,
+              "y": 264.32876712328766
+            },
+            "rectbox": {
+              "width": 550,
+              "height": 193,
+              "x": 366.2338092257319,
+              "y": 264.28351309707244
+            },
+            "fontcolor": "#ffffff",
+            "fontsize": 249.31216931216932,
+            "scale": 1,
+            "rotate": 0,
+            "fontfamily": "tahoma",
+            "text": "Hello",
+            "filters": [
+              {
+                "type": "border",
+                "color": "#666666",
+                "width": 3.332762637380826
+              }
+            ],
+            "drawDatas": [
+              {
+                "text": "Hello",
+                "x": 366.2338092257319,
+                "y": 254.86026795269692
+              }
+            ]
+          }
+        }
+      ],
+      "datas": [
+        {
+          "type": "add",
+          "ord": 0,
+          "id": "base-video-7e5772b0-b3d1-4b62-bbec-d5ecb6b8b9d5"
+        },
+        {
+          "type": "add",
+          "ord": 1,
+          "id": "base-audio-d0acef51-5013-4b2c-be5a-ca22a23cb15f"
+        },
+        {
+          "type": "overlay",
+          "ord": 2,
+          "id": "text-7e7bebc2-dd67-4b73-b262-c2a89d305794"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "gve": {
+    "info": {
+      "version": "1.0",
+      "datetime": "1702278244544",
+      "writer": ""
+    },
+    "sequence": {
+      "id": "seq-91762702-89ae-47c3-88d5-e06551e9790e",
+      "title": "Untitle",
+      "editor": {
+        "id": "editor-1d2d98e4-2650-4ef9-89cf-4a99b661cdbb",
+        "name": "",
+        "workspace": {
+          "id": "workspace-586e5669-d7ba-40bb-bab4-74cfe2cd9d85",
+          "name": "workspace",
+          "aspectRatio": 1.778,
+          "frameInfo": {
+            "frames": 3600,
+            "framerate": 30,
+            "df": false
+          },
+          "initDatas": {
+            "aspectRatio": 1.778,
+            "frameInfo": {
+              "frames": 3600,
+              "framerate": 30,
+              "df": false
+            }
+          }
+        }
+      }
+    },
+    "export": {
+      "aspectratio": "16:9",
+      "width": "1280",
+      "height": "720",
+      "framerate": "30",
+      "drop": "false",
+      "duration": "2087",
+      "frames": "2087",
+      "audio": {
+        "codec": "aac",
+        "bitrate": "320K",
+        "samplerate": "44.1K"
+      },
+      "video": {
+        "codec": "libx264",
+        "bitrate": "5M",
+        "bitratetype": ""
+      }
+    },
+    "assets": [
+      {
+        "id": "media-audio-5",
+        "type": "audio",
+        "existAudio": true,
+        "src": "D:/gwve_project/resources/audio/audio2.wma",
+        "framerate": 30,
+        "size": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "render": {
+      "items": [
+        {
+          "id": "base-video-812daf8e-352f-46d9-8f66-1e030d44d2dd",
+          "type": "base-video",
+          "action":"add",
+          "ord": 0,
+          "datas": {
+            "alpha": 1,
+            "color": "black",
+            "duration": 2087,
+            "frame": {
+              "start": 0,
+              "end": 2087
+            },
+            "framerate": 30,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotate": 0,
+            "scale": 1,
+            "size": {
+              "width": 1280,
+              "height": 720
+            }
+          }
+        },
+        {
+          "id": "base-audio-85b7291c-48a3-4065-b7f6-6322ce27b5a0",
+          "type": "base-audio",
+          "action":"add",
+          "ord": 1,
+          "datas": {
+            "alpha": 1,
+            "bitrate": null,
+            "channel": null,
+            "samplerate": "44.1K",
+            "duration": 2087,
+            "frame": {
+              "start": 0,
+              "end": 2087
+            },
+            "framerate": 30,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotate": 0,
+            "scale": 1,
+            "size": {
+              "width": 1280,
+              "height": 720
+            }
+          }
+        },
+        {
+          "id": "audio-2b754317-b295-476e-a257-a8c8c5694744",
+          "type": "audio",
+          "assetid": "media-audio-5",
+          "action":"overlay",
+          "ord": 2,
+          "datas": {
+            "alpha": 1,
+            "bitrate": 0,
+            "channel": 2,
+            "duration": 2000,
+            "frame": {
+              "start": 87,
+              "end": 2087
+            },
+            "rotate": 0,
+            "framerate": 0,
+            "trim": false,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "samplerate": "44K",
+            "scale": 1,
+            "size": {
+              "width": 0,
+              "height": 0
+            },
+            "filters": [],
+            "assetframe": {
+              "in": 0,
+              "out": 2000
+            }
+          }
+        }
+      ],
+      "datas": [
+        {
+          "type": "add",
+          "ord": 0,
+          "id": "base-video-812daf8e-352f-46d9-8f66-1e030d44d2dd"
+        },
+        {
+          "type": "add",
+          "ord": 1,
+          "id": "base-audio-85b7291c-48a3-4065-b7f6-6322ce27b5a0"
+        },
+        {
+          "type": "overlay",
+          "ord": 2,
+          "id": "audio-2b754317-b295-476e-a257-a8c8c5694744"
+        }
+      ]
+    }
+  }
+}

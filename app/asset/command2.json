@@ -1,0 +1,295 @@
+{
+  "gve": {
+    "info": {
+      "version": "1.0",
+      "datetime": "1701234971227",
+      "writer": ""
+    },
+    "sequence": {
+      "id": "seq-836e2250-d50e-4c10-b536-7f5a764335f1",
+      "title": "Untitle",
+      "editor": {
+        "id": "editor-a0d6a2fb-29ca-4d1e-9e23-c20a4eda8a33",
+        "name": "",
+        "workspace": {
+          "id": "workspace-6862f2a3-0c07-4743-b58b-063aa5b69f2b",
+          "name": "workspace",
+          "aspectRatio": 1.778,
+          "frameInfo": {
+            "frames": 43172,
+            "framerate": 30,
+            "df": false
+          },
+          "initDatas": {
+            "aspectRatio": 1.778,
+            "frameInfo": {
+              "frames": 3600,
+              "framerate": 30,
+              "df": false
+            }
+          }
+        }
+      }
+    },
+    "export": {
+      "aspectratio": "16:9",
+      "width": "1280",
+      "height": "720",
+      "framerate": "30",
+      "drop": "false",
+      "duration": "658",
+      "frames": "658",
+      "audio": {
+        "codec": "aac",
+        "bitrate": "320K",
+        "samplerate": "44.1K"
+      },
+      "video": {
+        "codec": "libx264",
+        "bitrate": "5M",
+        "bitratetype": ""
+      }
+    },
+    "assets": [
+      {
+        "id": "media-video-2",
+        "type": "video",
+        "existAudio": true,
+        "src": "D:/gwve_project/resources/video/mbc_new_frame.mp4",
+        "framerate": 29.97,
+        "size": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": "media-video-1",
+        "type": "video",
+        "existAudio": true,
+        "src": "D:/gwve_project/resources/video/video7-intra.mp4",
+        "framerate": 29.97,
+        "size": {
+          "width": 1280,
+          "height": 720
+        }
+      }
+    ],
+    "render": {
+      "items": [
+        {
+          "id": "base-video-2bbea62c-ba8b-444e-917b-d0abf900e798",
+          "type": "base-video",
+          "action": "add",
+          "ord": 0,
+          "datas": {
+            "alpha": 1,
+            "color": "black",
+            "duration": 658,
+            "frame": {
+              "start": 0,
+              "end": 658
+            },
+            "framerate": 30,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotate": 0,
+            "scale": 1,
+            "size": {
+              "width": 1280,
+              "height": 720
+            }
+          }
+        },
+        {
+          "id": "base-audio-db0ac45e-81cb-4a06-be65-148756f82baa",
+          "type": "base-audio",
+          "action": "add",
+          "ord": 1,
+          "datas": {
+            "alpha": 1,
+            "bitrate": null,
+            "channel": null,
+            "samplerate": "44.1K",
+            "duration": 658,
+            "frame": {
+              "start": 0,
+              "end": 658
+            },
+            "framerate": 30,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotate": 0,
+            "scale": 1,
+            "size": {
+              "width": 1280,
+              "height": 720
+            }
+          }
+        },
+        {
+          "id": "video-36fd59b6-7289-45a5-960a-22381e951d12",
+          "type": "video",
+          "assetid": "media-video-2",
+          "action": "overlay",
+          "ord": 2,
+          "datas": {
+            "size": {
+              "width": 1280,
+              "height": 720
+            },
+            "alpha": 1,
+            "frame": {
+              "start": 0,
+              "end": 658
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": 1,
+            "rectbox": {
+              "width": 1280,
+              "height": 720,
+              "x": 0,
+              "y": 0
+            },
+            "rotate": 0,
+            "audio": true,
+            "trim": true,
+            "filters": [],
+            "assetframe": {
+              "in": 0,
+              "out": 658
+            },
+            "crop": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "use": false
+            }
+          }
+        },
+        {
+          "id": "video-2f437bb2-db73-464d-97fc-0bd4bd653c47",
+          "type": "video",
+          "assetid": "media-video-1",
+          "action": "overlay",
+          "ord": 3,
+          "datas": {
+            "size": {
+              "width": 801,
+              "height": 450
+            },
+            "alpha": 1,
+            "frame": {
+              "start": 0,
+              "end": 260
+            },
+            "position": {
+              "x": 94.66872110939907,
+              "y": 90.07712603161872
+            },
+            "scale": 0.62578125,
+            "rectbox": {
+              "width": 801,
+              "height": 450,
+              "x": 94.66872110939907,
+              "y": 90.06170450687439
+            },
+            "rotate": 0,
+            "audio": true,
+            "trim": true,
+            "filters": [],
+            "assetframe": {
+              "in": 0,
+              "out": 260
+            },
+            "crop": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "use": false
+            }
+          }
+        },
+        {
+          "id": "video-6ed17224-f0e7-429b-888c-059b91a06948",
+          "type": "video",
+          "assetid": "media-video-1",
+          "action": "overlay",
+          "ord": 4,
+          "datas": {
+            "size": {
+              "width": 638,
+              "height": 359
+            },
+            "alpha": 1,
+            "frame": {
+              "start": 260,
+              "end": 658
+            },
+            "position": {
+              "x": 641.7534246575343,
+              "y": 360.986301369863
+            },
+            "scale": 0.4984375,
+            "rectbox": {
+              "width": 638,
+              "height": 359,
+              "x": 641.7534246575343,
+              "y": 360.924499229584
+            },
+            "rotate": 0,
+            "audio": true,
+            "trim": true,
+            "filters": [],
+            "assetframe": {
+              "in": 1920,
+              "out": 2317
+            },
+            "crop": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "use": false
+            }
+          }
+        }
+      ],
+      "datas": [
+        {
+          "type": "add",
+          "ord": 0,
+          "id": "base-video-2bbea62c-ba8b-444e-917b-d0abf900e798"
+        },
+        {
+          "type": "add",
+          "ord": 1,
+          "id": "base-audio-db0ac45e-81cb-4a06-be65-148756f82baa"
+        },
+        {
+          "type": "overlay",
+          "ord": 2,
+          "id": "video-36fd59b6-7289-45a5-960a-22381e951d12"
+        },
+        {
+          "type": "overlay",
+          "ord": 3,
+          "id": "video-2f437bb2-db73-464d-97fc-0bd4bd653c47"
+        },
+        {
+          "type": "overlay",
+          "ord": 4,
+          "id": "video-6ed17224-f0e7-429b-888c-059b91a06948"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "tahoma",
+    "path": "C:\\PROJECT\\Server\\gve-java\\gwve-gradle\\app\\asset\\fonts\\tahoma.ttf"
+  },
+  {
+    "name": "gothic",
+    "path": "C:\\PROJECT\\Server\\gve-java\\gwve-gradle\\app\\asset\\fonts\\H2GTRM.TTF"
+  },
+  {
+    "name": "Bazzi",
+    "path": "C:\\PROJECT\\Server\\gve-java\\gwve-gradle\\app\\asset\\fonts\\Bazzi.ttf"
+  },
+  {
+    "name": "minhye",
+    "path": "C:\\PROJECT\\Server\\gve-java\\gwve-gradle\\app\\asset\\fonts\\Minhye.ttf"
+  },
+  {
+    "name": "HSSummer",
+    "path": "C:\\PROJECT\\Server\\gve-java\\gwve-gradle\\app\\asset\\fonts\\HSSummer.ttf"
+  },
+  {
+    "name": "NanumBarunGothic",
+    "path": "C:\\PROJECT\\Server\\gve-java\\gwve-gradle\\app\\asset\\fonts\\NanumBarunGothic.ttf"
+  },
+  {
+    "name": "RIDIBatang",
+    "path": "C:\\PROJECT\\Server\\gve-java\\gwve-gradle\\app\\asset\\fonts\\RIDIBatang.otf"
+  },
+  {
+    "name": "Pretendard",
+    "path": "C:\\PROJECT\\Server\\gve-java\\gwve-gradle\\app\\asset\\fonts\\Pretendard-Regular.ttf"
+  }
+]
